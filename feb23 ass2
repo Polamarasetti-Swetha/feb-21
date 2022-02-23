@@ -1,0 +1,15 @@
+l=[]
+n=int(input('Enter n value'))
+for i in range(n):
+    e=int(input('Enter values'))
+    l.append(e)
+m=int(n/2)    
+print(l)
+for i in range(m):
+    temp=l[i]
+    l[i]=l[n-i-1]
+    l[n-i-1]=temp
+print(l)    
+        
+    
+
