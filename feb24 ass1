@@ -1,0 +1,10 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+c=0
+if x%i==0 and x%i==x:
+    c=c+1
+print(c)    
+    
