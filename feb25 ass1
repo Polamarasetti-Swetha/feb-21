@@ -1,0 +1,15 @@
+negative=[]
+l=[]
+p=[]
+n=int(input('Enter n:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+for i in range(n):
+    if l[i]>=0:
+        p.append(l[i])
+    else:
+        negative.append(l[i])
+print(p,' ',negative)    
+    
